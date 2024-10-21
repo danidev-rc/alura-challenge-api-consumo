@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <title>Challenge Geek</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="content_titulo">❤❤❤AluraGeek</h1>
+    </header>
+
+    <div class="container_general">
+      <ul class="products_container" alt="productos Geek" data-lista></ul>
+      <main class="container">
+        <form class="container__formulario" data-formulario>
+          <h2>AGREGAR PRODUCTO</h2>
+          <div class="formulario__campo">
+            <label class="campo__etiqueta" for="nombre">Nombre</label>
+            <input
+              name="titulo"
+              class="campo__escrita"
+              id="titulo"
+              required
+              placeholder="Nombre..."
+              data-nombre
+            />
+          </div>
+          <div class="formulario__campo">
+            <label class="campo__etiqueta" for="precio">Precio</label>
+            <input
+              name="precio"
+              class="campo__escrita"
+              id="precio"
+              required
+              placeholder="Precio..."
+              data-precio
+            />
+          </div>
+          <div class="formulario__campo">
+            <label class="campo__etiqueta" for="imagen">Imagen URL</label>
+            <input
+              name="imagen"
+              class="campo__escrita"
+              id="imagen"
+              required
+              placeholder="Imagen..."
+              data-imagen
+            />
+          </div>
+          <div class="form_boton">
+            <button type="submit" class="formulario__boton">Agregar</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer class="footer_page">
+      <h1>❤❤❤AluraGeek</h1>
+      <p>DESARROLLADO POR DANTE RODRÍGUEZ</p>
+      <span>ALURA LATAM - 202X</span>
+    </footer>
+    <script src="./js/crearProduct.js" type="module"></script>
+    <script src="./js/mostrarProduct.js" type="module"></script>
+  </body>
+</html>

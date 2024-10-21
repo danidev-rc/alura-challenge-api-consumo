@@ -1,0 +1,35 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop",
+      "precio": "1000",
+      "imagen": "https://media.istockphoto.com/id/171313585/photo/front-view-of-modern-laptop.jpg?s=612x612&w=0&k=20&c=MSoB6rrgzEJKnfAaMFQwutj6o1Le-B-De1I0QN4uGtQ="
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse",
+      "precio": "50",
+      "imagen": "https://redragon.in/cdn/shop/collections/B079DY7GGB.MAIN.jpg?v=1623067062"
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado",
+      "precio": "100",
+      "imagen": "https://m.media-amazon.com/images/I/71Vivy1rEzL.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor",
+      "precio": "500",
+      "imagen": "https://m.media-amazon.com/images/I/71NKVhFMRKL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "21b5",
+      "nombre": "CPU",
+      "precio": "2500",
+      "imagen": "https://w7.pngwing.com/pngs/410/796/png-transparent-laptop-gaming-computer-personal-computer-amd-fx-pc-gamer-computer-electronic-device-laptop-thumbnail.png"
+    }
+  ]
+}
+

@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/press-start-2p');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #5D04D9;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container_general {
+  display: flex;
+  gap: 20px;
+}
+
+
+.products_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.products_list {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 8px;
+  border: black 2px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.products_img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.products_nombre {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.products_price {
+  font-size: 14px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+
+.container__formulario h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.formulario__campo {
+  margin-bottom: 15px;
+}
+
+.campo__etiqueta {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.form_boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campo__escrita {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #1a73e8;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.formulario__boton {
+  width: 48%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario__boton:hover {
+  background-color: #3f8efc;
+}
+
+.formulario__limpiar {
+  width: 48%;
+  padding: 10px;
+  background-color: white;
+  color: #1a73e8;
+  border: 2px solid #1a73e8;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.formulario__limpiar:hover {
+  background-color: #f1f1f1;
+}
+
+.footer_page {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #5D04D9;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsividad */
+@media (max-width: 1024px) {
+  .container_general {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .products_container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .container__formulario {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  .container__formulario h2 {
+    font-size: 12px;
+  }
+
+  .formulario__boton,
+  .formulario__limpiar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .products_list {
+    padding: 5px;
+  }
+
+  .products_img img {
+    width: 100px;
+    height: 100px;
+  }
+}
